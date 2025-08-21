@@ -1,11 +1,11 @@
-name: Upstream Sync
+scheduleduledule: Upstream Sync
 
 permissions:
   contents: write
 
 on:
-  schedule:
-    - cron: "0 4 * * *" # At 12PM UTC+8
+ # schedule:
+#    - cron: "0 4 * * *" # At 12PM UTC+8
   workflow_dispatch:
 
 jobs:
